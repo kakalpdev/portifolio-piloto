@@ -49,6 +49,7 @@ div#itens-wrapper{
 
 div#itens{
     display: flex;
+    max-width: 250px;
     
     gap: 20px;
     scroll-snap-type: x mandatory;
@@ -68,7 +69,7 @@ h2.item{
     object-fit: cover;
     scroll-snap-align: start;
 
-    pointer-events: fill;
+    pointer-events: none;
 
     color: #fff;
     background-color: #008080;
@@ -87,6 +88,7 @@ article{
 button{
     padding: 10px;
     width: 30%;
+    max-width: 200px;
     background-color: #24257066;
     border-radius: 30px;
     color: white;
